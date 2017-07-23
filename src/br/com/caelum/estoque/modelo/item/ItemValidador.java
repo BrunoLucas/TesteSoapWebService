@@ -3,6 +3,8 @@ package br.com.caelum.estoque.modelo.item;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.caelum.estoque.exception.ItemValidadorException;
+
 public class ItemValidador {
 
 	private Item item;
